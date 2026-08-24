@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Filty — 개인정보처리방침 / Privacy Policy</title>
+<style>
+  :root {
+    --fg: #1a1a1a;
+    --muted: #666;
+    --line: #e5e5e5;
+    --accent: #2b6cb0;
+    --ph-bg: #fff3cd;
+    --ph-fg: #8a6d00;
+    --ph-border: #ffe066;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+                 "Noto Sans KR", Roboto, sans-serif;
+    color: var(--fg);
+    line-height: 1.7;
+    background: #fafafa;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 16px; margin-bottom: 8px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  .updated { color: var(--muted); font-size: 0.85rem; }
+  h2 {
+    font-size: 1.1rem; margin: 32px 0 10px; padding-top: 8px;
+    border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: none; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); word-break: break-all; }
+  .lang-toggle {
+    display: inline-flex; gap: 0; border: 1px solid var(--line);
+    border-radius: 8px; overflow: hidden; margin: 16px 0 8px;
+  }
+  .lang-toggle button {
+    border: none; background: #fff; color: var(--muted);
+    padding: 8px 18px; font-size: 0.9rem; cursor: pointer;
+  }
+  .lang-toggle button.active { background: var(--accent); color: #fff; font-weight: 600; }
+  /* placeholder 강조 — 나중에 실제 값으로 교체할 곳 */
+  .ph {
+    background: var(--ph-bg); color: var(--ph-fg);
+    border: 1px dashed var(--ph-border); border-radius: 4px;
+    padding: 0 5px; font-weight: 600; white-space: nowrap;
+  }
+  .ph-note {
+    background: var(--ph-bg); color: var(--ph-fg);
+    border: 1px solid var(--ph-border); border-radius: 8px;
+    padding: 10px 14px; font-size: 0.85rem; margin: 16px 0;
+  }
+  section { display: none; }
+  section.active { display: block; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.8rem; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="ph-note">
+    ⚠️ <strong>배포 전 교체 필요 / Replace before release:</strong>
+    노란색으로 강조된 <span class="ph">개발자명</span>과
+    <span class="ph">이메일</span>을 실제 값으로 바꾸세요.
+    (이 안내 박스와 <code>.ph-note</code>도 삭제)
+  </div>
+
+  <div class="lang-toggle">
+    <button id="btn-ko" class="active" onclick="setLang('ko')">한국어</button>
+    <button id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+
+  <!-- ===================== 한국어 ===================== -->
+  <section id="ko" class="active">
+    <header>
+      <h1>개인정보처리방침</h1>
+      <div class="updated">최종 수정일: 2026년 7월 15일</div>
+    </header>
+
+    <p><span class="ph">"가명"</span>(이하 "개발자")이 제공하는 Filty(이하 "앱")의 개인정보처리방침입니다.</p>
+
+    <h2>1. 수집하는 개인정보</h2>
+    <p>앱은 사용자의 개인정보를 직접 수집하거나 외부 서버로 전송하지 않습니다.</p>
+    <p>앱이 기기에서 접근하는 정보는 다음과 같습니다.</p>
+    <ul>
+      <li><strong>카메라</strong>: 실시간 카메라 프리뷰 및 사진·동영상 촬영에 사용됩니다. 촬영된 이미지는 기기 내에서만 처리되며 외부 서버로 전송되지 않습니다.</li>
+      <li><strong>마이크</strong>: 동영상 촬영 시 오디오 녹음에 사용됩니다.</li>
+      <li><strong>사진 라이브러리</strong>: 촬영된 사진·동영상을 저장하거나, 갤러리에서 이미지를 불러와 편집할 때 사용됩니다.</li>
+    </ul>
+
+    <h2>2. 개인정보의 저장 및 처리</h2>
+    <p>앱은 사용자의 사진, 동영상, 필터 설정 등 콘텐츠 데이터를 모두 사용자의 기기 내에서만 처리합니다. 개발자는 이러한 콘텐츠를 저장하는 별도의 서버를 운영하지 않으며, 사진·동영상은 외부로 전송되지 않습니다.</p>
+    <p>다만 무료 사용자에게 광고를 제공하기 위해, 아래 5항에 기재된 광고 서비스(Google AdMob)가 광고 식별자 등 일부 정보를 수집·전송할 수 있습니다. 프리미엄 구독자에게는 광고가 표시되지 않습니다.</p>
+
+    <h2>3. 구독 및 결제 정보</h2>
+    <p>앱 내 정기구독(Auto-Renewable Subscription)은 Apple의 App Store 결제 시스템을 통해 처리됩니다. 개발자는 사용자의 결제 정보(신용카드 번호 등)에 접근하지 않으며, 이에 대한 처리는 Apple의 개인정보처리방침에 따릅니다.</p>
+
+    <h2>4. 제3자 제공</h2>
+    <p>앱은 사용자가 생성한 사진·동영상 등 콘텐츠를 제3자에게 제공하지 않습니다.</p>
+    <p>단, 무료 사용자에게 광고를 제공하는 과정에서 Google AdMob이 광고 식별자, 기기 정보, 대략적인 위치(IP 기반) 등을 수집하여 광고 게재 목적으로 처리할 수 있습니다. 이에 대한 자세한 내용은 Google의 개인정보처리방침(<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>)을 참고하시기 바랍니다.</p>
+
+    <h2>5. 분석 및 광고</h2>
+    <p>앱은 별도의 분석 도구(Analytics)를 사용하지 않습니다.</p>
+    <p>앱은 무료 사용자에게 광고를 표시하기 위해 Google AdMob 광고 SDK를 사용합니다.</p>
+    <ul>
+      <li><strong>광고 형태</strong>: 앱 시작 시 표시되는 앱 오프닝 광고(App Open Ad)</li>
+      <li><strong>수집 정보</strong>: Google AdMob은 광고 게재 및 성과 측정을 위해 광고 식별자(IDFA/AAID 등), 기기 정보, IP 주소 기반 대략적 위치 등을 수집할 수 있습니다.</li>
+      <li><strong>프리미엄 구독</strong>: 프리미엄 구독자에게는 광고가 표시되지 않으며, 광고 목적의 정보 수집도 이루어지지 않습니다.</li>
+      <li><strong>맞춤형 광고 거부</strong>: iOS 설정 &gt; 개인정보 보호 및 보안 &gt; 추적에서 앱 추적을 제한하거나, 설정 &gt; 개인정보 보호 &gt; Apple 광고에서 맞춤형 광고를 제한할 수 있습니다.</li>
+    </ul>
+    <p>Google AdMob의 데이터 처리에 관한 자세한 내용은 Google의 개인정보처리방침(<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>) 및 Google 광고 정책을 참고하시기 바랍니다.</p>
+
+    <h2>6. 아동 개인정보</h2>
+    <p>앱은 만 14세 미만 아동을 주 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다. 앱에 포함된 광고는 아동을 대상으로 하지 않습니다.</p>
+
+    <h2>7. 개인정보처리방침의 변경</h2>
+    <p>본 방침이 변경될 경우, 앱 업데이트 또는 본 페이지를 통해 변경 사항을 공지합니다.</p>
+
+    <h2>8. 문의</h2>
+    <p>개인정보 관련 문의는 아래로 연락해 주시기 바랍니다.</p>
+    <ul>
+      <li><strong>이메일</strong>: <span class="ph">example@gmail.com</span></li>
+    </ul>
+  </section>
+
+  <!-- ===================== English ===================== -->
+  <section id="en">
+    <header>
+      <h1>Privacy Policy</h1>
+      <div class="updated">Last Updated: July 15, 2026</div>
+    </header>
+
+    <p>This Privacy Policy describes how <span class="ph">"가명"</span> ("Developer") handles information in connection with the Filty application ("App").</p>
+
+    <h2>1. Information We Access</h2>
+    <p>The App does not collect personal information or transmit any data to external servers.</p>
+    <p>The App accesses the following on your device:</p>
+    <ul>
+      <li><strong>Camera</strong>: Used for real-time camera preview and capturing photos and videos. All captured images are processed entirely on your device and are never transmitted to external servers.</li>
+      <li><strong>Microphone</strong>: Used for audio recording during video capture.</li>
+      <li><strong>Photo Library</strong>: Used to save captured photos and videos, or to load images from your gallery for editing.</li>
+    </ul>
+
+    <h2>2. Data Storage and Processing</h2>
+    <p>Your content data — photos, videos, and filter settings — is processed entirely on your device. The Developer does not operate any server that stores such content, and your photos and videos are never transmitted externally.</p>
+    <p>However, to serve ads to free users, the advertising service described in Section 5 (Google AdMob) may collect and transmit certain information such as advertising identifiers. No ads are shown to Premium subscribers.</p>
+
+    <h2>3. Subscriptions and Payment</h2>
+    <p>In-app auto-renewable subscriptions are processed through Apple's App Store payment system. The Developer does not have access to your payment information (such as credit card numbers). All payment processing is governed by Apple's Privacy Policy.</p>
+
+    <h2>4. Third-Party Sharing</h2>
+    <p>The App does not share your content — such as the photos and videos you create — with any third parties.</p>
+    <p>However, when serving ads to free users, Google AdMob may collect and process advertising identifiers, device information, and approximate location (based on IP address) for the purpose of ad delivery. For more information, please refer to Google's Privacy Policy (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>).</p>
+
+    <h2>5. Analytics and Advertising</h2>
+    <p>The App does not use any analytics tools.</p>
+    <p>The App uses the Google AdMob advertising SDK to display ads to free users.</p>
+    <ul>
+      <li><strong>Ad format</strong>: An App Open Ad shown when the App launches.</li>
+      <li><strong>Information collected</strong>: Google AdMob may collect advertising identifiers (such as IDFA/AAID), device information, and approximate location based on IP address for ad delivery and performance measurement.</li>
+      <li><strong>Premium subscription</strong>: Premium subscribers are not shown ads, and no information is collected for advertising purposes.</li>
+      <li><strong>Opting out of personalized ads</strong>: You can limit app tracking under iOS Settings &gt; Privacy &amp; Security &gt; Tracking, or limit personalized ads under Settings &gt; Privacy &gt; Apple Advertising.</li>
+    </ul>
+    <p>For more details about Google AdMob's data practices, please refer to Google's Privacy Policy (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>) and Google's advertising policies.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>The App is not directed to children under the age of 14 and does not knowingly collect personal information from them. The ads shown in the App are not directed to children.</p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>If this policy is updated, changes will be communicated through app updates or on this page.</p>
+
+    <h2>8. Contact</h2>
+    <p>For privacy-related inquiries, please contact us at:</p>
+    <ul>
+      <li><strong>Email</strong>: <span class="ph">example@gmail.com</span></li>
+    </ul>
+  </section>
+
+  <footer>Filty · Privacy Policy</footer>
+</div>
+
+<script>
+  function setLang(lang) {
+    document.getElementById('ko').classList.toggle('active', lang === 'ko');
+    document.getElementById('en').classList.toggle('active', lang === 'en');
+    document.getElementById('btn-ko').classList.toggle('active', lang === 'ko');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.documentElement.lang = lang;
+  }
+  // 기기 언어가 영어면 영어로 시작
+  if ((navigator.language || 'ko').slice(0,2) === 'en') setLang('en');
+</script>
+</body>
+</html>
